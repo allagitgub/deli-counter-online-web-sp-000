@@ -1,7 +1,7 @@
 def line(kats_deli)
   people = ""
   counter = 1;
-  katz_deli.each { |person|
+  kats_deli.each { |person|
     counterStr = counter.to_s
     people << counterStr +". "+person
     puts "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
