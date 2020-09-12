@@ -3,7 +3,7 @@ def line(kats_deli)
   counter = 1;
   kats_deli.each { |person|
     counterStr = counter.to_s
-    people << counterStr +". "+person
+    people << counterStr +". "+person + " "
     counter += 1
   }
   if people.length > 0
