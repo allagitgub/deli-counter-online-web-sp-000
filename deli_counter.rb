@@ -28,4 +28,4 @@ def now_serving(kats_deli)
   puts "Currently serving #{currently_serving}."
 end
 
-line(["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"])
+#line(["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"])
