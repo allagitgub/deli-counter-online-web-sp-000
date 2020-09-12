@@ -23,7 +23,7 @@ end
 
 def now_serving(kats_deli)
   currently_serving = kats_deli.pop
-  if(kats_deli.empty)
+  if(kats_deli.size == 0)
     puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{currently_serving}."
