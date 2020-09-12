@@ -6,9 +6,9 @@ def line(kats_deli)
     people << " "+counterStr +". "+person
     counter += 1
   }
-  
+
   if people.length > 0
-    puts "The line is currently: "+people
+    puts "The line is currently:"+people
   else
     puts "The line is currently empty."
   end
