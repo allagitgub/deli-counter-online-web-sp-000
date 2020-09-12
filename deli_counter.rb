@@ -22,7 +22,7 @@ def take_a_number(kats_deli, name)
 end
 
 def now_serving(kats_deli)
-  currently_serving = kats_deli.pop
+  currently_serving = kats_deli.first
   if(kats_deli.size == 0)
     puts "There is nobody waiting to be served!"
   else
