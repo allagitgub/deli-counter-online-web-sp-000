@@ -23,7 +23,11 @@ end
 
 def now_serving(kats_deli)
   currently_serving = kats_deli.pop
-  puts "Currently serving #{currently_serving}."
+  if(kats_deli.empty)
+    puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{currently_serving}."
+  end
 end
 
 #line(["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"])
