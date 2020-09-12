@@ -27,3 +27,5 @@ def now_serving(kats_deli)
   currently_serving = kats_deli.pop
   puts "Currently serving #{currently_serving}."
 end
+
+line(["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"])
