@@ -4,7 +4,6 @@ def line(kats_deli)
   kats_deli.each { |person|
     counterStr = counter.to_s
     people << counterStr +". "+person
-    puts "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
     counter += 1
   }
   if people.length > 0
