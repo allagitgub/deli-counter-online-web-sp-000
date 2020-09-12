@@ -7,10 +7,8 @@ def line(kats_deli)
     counter += 1
   }
   if people.length > 0
-    puts "kats_deli" + katz_deli.to_s
     puts "The line is currently: "+people
   else
-    #puts "kats_deli" + katz_deli.to_s
     puts "The line is currently empty."
   end
 end
